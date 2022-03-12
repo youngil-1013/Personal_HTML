@@ -18,7 +18,7 @@ __Paragraphs__, well, denote where paragraphs begin and end. Without paragraphs,
 
 __Headlines__ are bigger and bolder than paragraphs. We actually have 6 levels of them:
 > `<h1> this is the h1 headline </h1>` 
+> 
 > `<h2> this is the h2 headline </h2>`
 > <h1> this is the h1 headline </h1>
 > <h2> this is the h1 headline </h2>
->> you get this gist
