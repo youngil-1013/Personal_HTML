@@ -13,9 +13,5 @@ All elements are defined using tags and the content of a tag is placed between t
 
 Paragraphs, well, denote where paragraphs begin and end. Without paragraphs, all text is mushed together into one big blob:
 
-> '''This is a paragraph without the paragraph tag.
-> This is another paragraph.
-> '''
-> This is a paragraph without the paragraph tag.
-> This is another paragraph.
-> 
+> `<p> this is a simple paragraph </p>`
+> <p> this is a simple paragraph </p>
