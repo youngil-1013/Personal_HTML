@@ -8,4 +8,7 @@ In this section, we will look at some HTML elements and their tags. All elements
 Elements can be nested:
 
 `<p> this is an <em> emphasized </em> word` 
-<p> this is an <em> emphasized </em> word
+<details>
+  <summary> See example </summary>
+    <p> this is an <em> emphasized </em> word 
+</details>
