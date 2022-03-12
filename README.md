@@ -4,8 +4,9 @@ This repository was created for me to review HTML (Hypertext Markup Language) an
 
 ## HTML elements
 
-In this section, we will look at some HTML elements and their tags. All elements are defined using tags and the content of a tag is placed between the opening and closing tag. 
-Elements can be nested:
+In this section, we will look at some HTML elements and their tags. 
+
+- All elements are defined using tags and the content of a tag is placed between the opening and closing tag which can be nested:
 
 `<p> this is an <em> emphasized </em> word` 
 <details>
