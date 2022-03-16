@@ -1,6 +1,6 @@
 # Personal_HTML
 
-This repository was created for me to review HTML (Hypertext Markup Language) and CSS (Cascadingd Style Sheet) concepts. I followed the [Become a Web Developer](https://www.linkedin.com/learning/paths/become-a-web-developer?u=36758476) course from LinkedIn Learning to help me get started.
+This repository was created for me to review HTML (Hypertext Markup Language) and CSS (Cascading Style Sheet) concepts. I followed the [Become a Web Developer](https://www.linkedin.com/learning/paths/become-a-web-developer?u=36758476) course from LinkedIn Learning to help me get started.
 
 ## HTML elements
 
@@ -22,3 +22,9 @@ __Headlines__ are bigger and bolder than paragraphs. We actually have 6 levels o
 > `<h2> this is the h2 headline </h2>`
 > <h1> this is the h1 headline </h1>
 > <h2> this is the h1 headline </h2>
+
+__Accenting Texts__ are used to highlight texts:
+> `<i>Harry Potter</i> is <b>my</b> <em>favorite</em> book. Do <strong>NOT</strong> criticize it.`
+> 
+> <i>Harry Potter</i> is <b>my</b> <em>favorite</em> book. Do <strong>NOT</strong> criticize it.
+> Note that while the 
