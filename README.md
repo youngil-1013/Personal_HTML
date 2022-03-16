@@ -31,15 +31,42 @@ __Accenting Texts__ are used to highlight texts:
 > Note that the difference lies not in the visual aspect but on what meaning each of the tags represent.
 
 __Lists__ can be unordered, ordered, or definition lists:
+> <b> Unordered List </b>
 > ```
 > <ul>
 >  <li> apple </li>
 >  <li> banana </li>
 >  <li> candy </li>
 > </ul>
->```
+> ```
 > <ul>
 >  <li> apple </li>
 >  <li> banana </li>
 >  <li> candy </li>
 > </ul>
+> 
+> <b> Ordered List </b>
+> ```
+> <ol>
+>  <li> uno </li>
+>  <li> dos </li>
+>  <li> tres </li>
+> </ol>
+> ```
+> <ol>
+>  <li> uno </li>
+>  <li> dos </li>
+>  <li> tres </li>
+> </ol>
+> 
+> <b> Definition List </b>
+> ```
+> <dl>
+>    <dt> Word </dt>
+>    <dd> Definition <dt> 
+> </dl>
+> ```
+> <dl>
+>    <dt> Word </dt>
+>    <dd> Definition <dt> 
+> </dl>
