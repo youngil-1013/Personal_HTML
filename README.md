@@ -38,8 +38,8 @@ __Lists__ can be unordered, ordered, or definition lists:
 >  <li> candy </li>
 > </ul>
 >```
-<ul>
-  <li> apple </li>
-  <li> banana </li>
-  <li> candy </li>
-</ul>
+> <ul>
+>  <li> apple </li>
+>  <li> banana </li>
+>  <li> candy </li>
+> </ul>
