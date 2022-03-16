@@ -104,4 +104,4 @@ __Attributes__ can be used to link CSS with HTML. Classes are reusable, whereas 
 > <p class = "intro" id  = "first_line"> This is the first line </p>
 > <p class = "intro"> This is <em>NOT</em> the first line </p>
 > ```
-> Find other attributes at [MDN Web Docs}(https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes)
+> Find other attributes at [MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes)
