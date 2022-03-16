@@ -30,7 +30,7 @@ __Accenting Texts__ are used to highlight texts:
 > 
 > Note that the difference lies not in the visual aspect but on what meaning each of the tags represent.
 
-__Lists__ can be unordered, ordered, or definition lists:
+__Lists__ can be unordered, ordered, or definition lists. The former two lists are self-explanatory, whereas definition lists can be understood as dictionaries with terms and definitions:
 > <b> Unordered List </b>
 > ```
 > <ul>
@@ -62,11 +62,46 @@ __Lists__ can be unordered, ordered, or definition lists:
 > <b> Definition List </b>
 > ```
 > <dl>
->    <dt> Word </dt>
->    <dd> Definition <dt> 
+>    <dt> term </dt>
+>    <dd> definition </dd> 
 > </dl>
 > ```
 > <dl>
->    <dt> Word </dt>
->    <dd> Definition <dt> 
+>    <dt> term </dt>
+>    <dd> definition </dd>
 > </dl>
+
+__Quotes__ can be either used as blockquotes (entire paragraphs excerpted) or inline quotes. Note that quote marks are different for different languages:
+> `<blockquote> <p> To be or not to be that is the question </p> <cite>Hamlet</cite></blockquote>`
+<blockquote> <p> To be or not to be that is the question</p> <cite>Hamlet</cite></blockquote> 
+
+> `<p lang = "en"> He said, <q>Nice to meet you</q> </p>`
+> 
+> `<p lang = "fr"> He said, <q>Nice to meet you</q> </p>`
+> <p lang = "en"> He said, <q>Nice to meet you</q> </p>
+> <p lang = "fr"> He said, <q>Nice to meet you</q> </p>
+  
+__Time__ elements are written between the `<time>` tag. However, we have to use the datetime attribute to specify what time we actually mean:
+> `<p>Today is <time datetime = "2022-03-16T12:53">March 16, 2022</time> </p>`
+> <p>Today is <time datetime = "2022-03-16T12:53">March 16, 2022</time> </p>
+
+__Code__ can also be included with in HTML:
+>`<p> This is how we print "Hello World" in Python: <code> print('Hello World') </code> </p>`
+> <p> This is how we print "Hello World" in Python: <code> print('Hello World') </code> </p>
+> 
+> `<p> We can include < and > signs using &lt and &gt <br> and break text using &ltbr&gt </p>`
+> <p> We can include &lt and &gt signs using &lt and &gt <br> and break text using &ltbr&gt </p>
+
+> `<p> <pre> or put 
+> silly     text
+>   spaces using  the     pre tag </pre> </p>`
+> <p> <pre> or put 
+> silly     text
+>   spaces using  the     pre tag </pre> </p>
+
+__Attributes__ can be used to link CSS with HTML. Classes are reusable, whereas ids are unique:
+> ```
+> <p class = "intro" id  = "first_line"> This is the first line </p>
+> <p class = "intro"> This is <em>NOT</em> the first line </p>
+> ```
+> Find other attributes at [MDN Web Docs}(https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes)
