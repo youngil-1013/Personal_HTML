@@ -26,5 +26,5 @@ __Headlines__ are bigger and bolder than paragraphs. We actually have 6 levels o
 __Accenting Texts__ are used to highlight texts:
 > `<i>Harry Potter</i> is <b>my</b> <em>favorite</em> book. Do <strong>NOT</strong> criticize it.`
 > 
-> <i>Harry Potter</i> is <b>my</b> <em>favorite</em> book. Do <strong>NOT</strong> criticize it.
+> <i>Harry Potter</i> is <b>my</b> <em>favorite</em> book. Do <strong>NOT</strong> criticize it. \t
 > Note that while the 
