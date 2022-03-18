@@ -90,7 +90,7 @@ __Code__ can also be included with in HTML:
 > <p> This is how we print "Hello World" in Python: <code> print('Hello World') </code> </p>
 > 
 > `<p> We can include < and > signs using &lt and &gt <br> and break text using &ltbr&gt </p>`
-> <p> We can include &lt and &gt signs using &lt and &gt <br> and break text using &ltbr&gt </p>
+> <p> We can include &lt and &gt signs using &amp;lt and &amp;gt <br> and break text using &ltbr&gt </p>
 
 > `<p> <pre> or put 
 > silly     text
@@ -104,4 +104,9 @@ __Attributes__ can be used to link CSS with HTML. Classes are reusable, whereas 
 > <p class = "intro" id  = "first_line"> This is the first line </p>
 > <p class = "intro"> This is <em>NOT</em> the first line </p>
 > ```
-> Find other attributes at [MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes)
+> Find other attributes at <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes"> MDN Web Docs</a>
+
+__Links__ can be typed with anchor tags. We have to give it a refrence that it accesses with the href attribute:
+> `<a href = "https://github.com/youngil-1013"> this is a link to my github repository </a>`
+> 
+> <a href = "https://github.com/youngil-1013"> this is a link to my github repository </a>
