@@ -121,5 +121,7 @@ __Images__ can be included if they are either already on the web (in which case,
 > ```
 > 
 > <picture>
-> <img src="/profile.jpg" alt = "My Facebook Profile Picture" width="300" height="300"/>
+>   <source media="(min-width:600px)" srcset="/profile_wide.jpg">
+>   <source srcset="/profile_tall.jpg">
+>   <img src="/profile.jpg" alt = "My Facebook Profile Picture" width="300" height="300"/>
 > </picture>
