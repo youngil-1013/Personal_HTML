@@ -110,3 +110,16 @@ __Links__ can be typed with anchor tags. We have to give it a refrence that it a
 > `<a href = "https://github.com/youngil-1013"> this is a link to my github repository </a>`
 > 
 > <a href = "https://github.com/youngil-1013"> this is a link to my github repository </a>
+
+__Images__ can be included if they are either already on the web (in which case, we'll use an absolute path) or in an adjacent repository. The example below is an example of how images can be made to be more responsive using the picture tag:
+> ```
+> <picture>
+>   <source media="(min-width:600px)" srcset="/profile_wide.jpg">
+>   <source srcset="/profile_tall.jpg">
+>   <img src="/profile.jpg" alt = "My Facebook Profile Picture" width="300" height="300"/>
+> </picture>
+> ```
+> 
+> <picture>
+> <img src="/profile.jpg" alt = "My Facebook Profile Picture" width="300" height="300"/>
+> </picture>
