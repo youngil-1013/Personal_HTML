@@ -110,3 +110,33 @@ __Links__ can be typed with anchor tags. We have to give it a refrence that it a
 > `<a href = "https://github.com/youngil-1013"> this is a link to my github repository </a>`
 > 
 > <a href = "https://github.com/youngil-1013"> this is a link to my github repository </a>
+
+__Images__ can be included if they are either already on the web (in which case, we'll use an absolute path) or in an adjacent repository. The example below is an example of how images can be made to be more responsive using the picture tag:
+> ```
+> <picture>
+>   <source media="(min-width:600px)" srcset="/profile_wide.jpg">
+>   <source srcset="/profile_tall.jpg"> <!--  seems like we can't use the picture element here -->
+>   <img src="/profile.jpg" alt = "My Facebook Profile Picture" width="300" height="300"/>
+> </picture>
+> ```
+> 
+> <picture>
+>   <source media="(min-width:600px)" srcset="/profile_wide.jpg">
+>   <source srcset="/profile_tall.jpg">
+>   <img src="/profile.jpg" alt = "My Facebook Profile Picture" width="300" height="300"/>
+> </picture>
+
+__Audio and Video__ can be included using the audio and video tags. However, it is probably more efficient to embed source codes from pre-existing video hosting services for videos as they implement adaptive bitrate streaming, which flexibly adjusts video resolution depending on network speed and hardware capabilities. These will be included in a later demo.
+
+__Generic Elements__ are for anything else that we wish to protray that are not expressed above:
+> ```
+> <div class="example_block">
+>   <p> div is a block-level element whereas <span class id="example_span"> span is a in-line element</span> </p>
+> </div>
+> ```
+> 
+> <div class="example_block">
+>   <p> div is a block-level element whereas <span class id="example_span"> span is a in-line element</span> </p>
+> </div>
+
+
