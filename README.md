@@ -115,7 +115,7 @@ __Images__ can be included if they are either already on the web (in which case,
 > ```
 > <picture>
 >   <source media="(min-width:600px)" srcset="/profile_wide.jpg">
->   <source srcset="/profile_tall.jpg">
+>   <source srcset="/profile_tall.jpg"> <!--  seems like we can't use the picture element here -->
 >   <img src="/profile.jpg" alt = "My Facebook Profile Picture" width="300" height="300"/>
 > </picture>
 > ```
@@ -125,3 +125,18 @@ __Images__ can be included if they are either already on the web (in which case,
 >   <source srcset="/profile_tall.jpg">
 >   <img src="/profile.jpg" alt = "My Facebook Profile Picture" width="300" height="300"/>
 > </picture>
+
+__Audio and Video__ can be included using the audio and video tags. However, it is probably more efficient to embed source codes from pre-existing video hosting services for videos as they implement adaptive bitrate streaming, which flexibly adjusts video resolution depending on network speed and hardware capabilities. These will be included in a later demo.
+
+__Generic Elements__ are for anything else that we wish to protray that are not expressed above:
+> ```
+> <div class="example_block">
+>   <p> div is a block-level element whereas <span class id="example_span"> span is a in-line element</span> </p>
+> </div>
+> ```
+> 
+> <div class="example_block">
+>   <p> div is a block-level element whereas <span class id="example_span"> span is a in-line element</span> </p>
+> </div>
+
+
